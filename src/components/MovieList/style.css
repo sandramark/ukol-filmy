@@ -1,0 +1,26 @@
+/* main {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+
+main {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+@media screen and (min-width: 600px) {
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
